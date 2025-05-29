@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-0&&ip!rb&a11*#a+@dy$94msi-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*']  # For testing only. Configure properly in production
+ALLOWED_HOSTS = ['*', 'bill-management-software.onrender.com']  # For testing only. Configure properly in production
 
 
 # Application definition
